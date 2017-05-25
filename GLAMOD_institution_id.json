@@ -3,7 +3,7 @@
         "MOHC":"Met Office Hadley Centre, Fitzroy Road, Exeter, Devon, EX1 3PB, UK",
         "NCAR":"National Center for Atmospheric Research, Boulder, CO 80307, USA",
         "NERC":"Natural Environment Research Council, STFC-RAL, Harwell, Oxford, OX11 0QX, UK",
-        "NOAA-NCEP":"National Oceanic and Atmospheric Administration, National Centers for Environmental Prediction, Camp Springs, MD 20746, USA",
+        "NOAA-NCEP":"National Oceanic and Atmospheric Administration, National Centers for Environmental Prediction, Camp Springs, MD 20746, USA"
     },
     "version_metadata":{
         "author":"Ag Stephens <ag.stephens@stfc.ac.uk>",
