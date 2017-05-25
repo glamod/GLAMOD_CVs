@@ -1,0 +1,20 @@
+{
+    "realm":{
+        "aerosol":"Aerosol",
+        "atmos":"Atmosphere",
+        "atmosChem":"Atmospheric Chemistry",
+        "land":"Land Surface",
+        "landIce":"Land Ice",
+        "ocean":"Ocean",
+        "ocnBgchem":"Ocean Biogeochemistry",
+        "seaIce":"Sea Ice"
+    },
+    "version_metadata":{
+        "author":"Ag Stephens <ag.stephens@stfc.ac.uk>",
+        "creation_date":"2017-05-17",
+        "institution_id":"CEDA",
+        "latest_tag_point":"0.0.1",
+        "note":"",
+        "previous_commit":""
+    }
+}

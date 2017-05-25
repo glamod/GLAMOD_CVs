@@ -1,0 +1,25 @@
+{
+    "frequency":[
+        "1hr",
+        "1hrClimMon",
+        "3hr",
+        "3hrClim",
+        "6hr",
+        "day",
+        "decadal",
+        "fx",
+        "mon",
+        "monClim",
+        "subhr",
+        "yr",
+        "yrClim"
+    ],
+    "version_metadata":{
+        "author":"Ag Stephens <ag.stephens@stfc.ac.uk>",
+        "creation_date":"2017-05-17",
+        "institution_id":"CEDA",
+        "latest_tag_point":"0.0.1",
+        "note":"",
+        "previous_commit":""
+    }
+}
