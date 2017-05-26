@@ -181,8 +181,11 @@ url = None
 
 ## Push changes in pyessv-writer to the server
 
+Push to the server.
+
 ```
 git commit -a -m 'Updated to work with GLAMOD'
+git push
 ```
 
 
