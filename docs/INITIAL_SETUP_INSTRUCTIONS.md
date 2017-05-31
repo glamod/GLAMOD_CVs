@@ -82,8 +82,8 @@ To:   https://github.com/glamod/pyessv-writer
 
 ```
 cd ../
-git clone https://agstephens@github.com/glamod/pyessv-writer
-cd pyessv-writer/
+git clone https://agstephens@github.com/glamod/pyessv-writer pyessv-writer-glamod
+cd pyessv-writer-glamod/
 ```
  
 ## Edit writer files to work on GLAMOD:
