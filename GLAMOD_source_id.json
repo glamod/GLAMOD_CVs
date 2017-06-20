@@ -1,61 +1,613 @@
 {
-    "source_id":{
-        "ACCESS-1-0":{
-            "activity_participation":[
-                "CMIP"
-            ],
-            "cohort":[
-                "CMIP5"
-            ],
-            "institution_id":[
-                "CSIRO-BOM"
-            ],
-            "label":"ACCESS 1.0",
-            "label_extended":"ACCESS 1.0 (This entry is free text for users to contribute verbose information)",
-            "model_component":{
-                "aerosol":{
-                    "description":"CLASSIC (v1.0)",
-                    "nominal_resolution":"100 km"
-                },
-                "atmos":{
-                    "description":"HadGAM2 (r1.1; N96, 192 x 145 longitude/latitude; 38 levels; top level 39255 m)",
-                    "nominal_resolution":"100 km"
-                },
-                "atmosChem":{
-                    "description":"none",
-                    "nominal_resolution":"none"
-                },
-                "land":{
-                    "description":"MOSES2.2",
-                    "nominal_resolution":"100 km"
-                },
-                "landIce":{
-                    "description":"none",
-                    "nominal_resolution":"none"
-                },
-                "ocean":{
-                    "description":"ACCESS-OM (MOM4p1; tripolar primarily 1deg, 360 x 300 longitude/latitude; 50 levels; top grid cell 0-10 m)",
-                    "nominal_resolution":"100 km"
-                },
-                "ocnBgchem":{
-                    "description":"none",
-                    "nominal_resolution":"none"
-                },
-                "seaIce":{
-                    "description":"CICE4.1",
-                    "nominal_resolution":"none"
-                }
-            },
-            "release_year":"2011",
-            "source_id":"ACCESS-1-0"
+    "source_id": {
+        "1000001": {
+            "data_repository": "ghcnd",
+            "details": "National Climate Centre Bureau of Meteorology Po Box 1289k Melbourne 3001",
+            "frequency": "day",
+            "label": "ghcnd_australia",
+            "source_id": "1000001"
         },
-    "version_metadata":{
-        "author":"Ag Stephens <ag.stephens@stfc.ac.uk>",
-        "creation_date":"2017-05-17",
-        "institution_id":"CEDA",
-        "latest_tag_point":"0.0.1",
-        "note":"",
-        "previous_commit":""
+        "1000002": {
+            "data_repository": "ghcnd",
+            "details": "Data Originated from Pavel Groisman, Ph.D.,Neespi Project Scientist (Http://Neespi.Org), Ucar Project Scientist at Ncdc, National Climatic Data Center, Federal Building, 151 Patton Avenue, Asheville, NC 28801,Ph.: +1 828 271-4347; Fax: +1 828 271-4328,Office E-Mail: Pasha.Groisman@Noaa.Gov, Home E-Mail: Groismanp@Bellsouth.Net",
+            "frequency": "day",
+            "label": "belarus",
+            "source_id": "1000002"
+        },
+        "1000003": {
+            "data_repository": "isti",
+            "details": "Data Originated from NCD\u2019S Global Summary of The Day (GSOD) Product",
+            "frequency": "day",
+            "label": "gsod",
+            "source_id": "1000003"
+        },
+        "1000004": {
+            "data_repository": "isti",
+            "details": "Data Originated from The Agroclimatic Databank from INIA (Instituto Nacional De Investigacion Agropecuaria) In Uruguay",
+            "frequency": "day",
+            "label": "uruguay_inia",
+            "source_id": "1000004"
+        },
+        "1000005": {
+            "data_repository": "isti",
+            "details": "Antarctic Meteorological Research Center (Amrc) Iniversity Wisconsin Madison USA",
+            "frequency": "day",
+            "label": "antarctic_palmer",
+            "source_id": "1000005"
+        },
+        "1000006": {
+            "data_repository": "isti",
+            "details": "Antarctic Meteorological Research Center (Amrc) Iniversity Wisconsin Madison USA",
+            "frequency": "day",
+            "label": "antarctic_scar_reader",
+            "source_id": "1000006"
+        },
+        "1000007": {
+            "data_repository": "isti",
+            "details": "Antarctic Meteorological Research Center (Amrc) Iniversity Wisconsin Madison USA",
+            "frequency": "day",
+            "label": "greenland",
+            "source_id": "1000007"
+        },
+        "1000008": {
+            "data_repository": "isti",
+            "details": "Australian Government Bureau of Meteorology",
+            "frequency": "day",
+            "label": "isti_australia",
+            "source_id": "1000008"
+        },
+        "1000009": {
+            "data_repository": "isti",
+            "details": "Brazil's Instituto Nacional De Meteorologia (INMET)",
+            "frequency": "day",
+            "label": "brazil_inmet",
+            "source_id": "1000009"
+        },
+        "1000010": {
+            "data_repository": "isti",
+            "details": "Data For 22 Stations Provided by Manola Brunet",
+            "frequency": "day",
+            "label": "spain",
+            "source_id": "1000010"
+        },
+        "1000011": {
+            "data_repository": "isti",
+            "details": "Data originated as source data used to create The International Surface Pressure Databank",
+            "frequency": "day",
+            "label": "ispd_ipy",
+            "source_id": "1000011"
+        },
+        "1000012": {
+            "data_repository": "isti",
+            "details": "Data originated as source data used to create The International Surface Pressure Databank",
+            "frequency": "day",
+            "label": "ispd_swiss",
+            "source_id": "1000012"
+        },
+        "1000013": {
+            "data_repository": "isti",
+            "details": "Data originated as source data used to create The International Surface Pressure Databank",
+            "frequency": "day",
+            "label": "ispd_sydney",
+            "source_id": "1000013"
+        },
+        "1000014": {
+            "data_repository": "isti",
+            "details": "Data originated as source data used to create The International Surface Pressure Databank",
+            "frequency": "day",
+            "label": "ispd_tunisia_morroco",
+            "source_id": "1000014"
+        },
+        "1000015": {
+            "data_repository": "isti",
+            "details": "Data Originated from The Digihom Project, which is a Collaboration Between Meteoswiss and IAC-ETH.",
+            "frequency": "day",
+            "label": "swiss_digihom",
+            "source_id": "1000015"
+        },
+        "1000016": {
+            "data_repository": "isti",
+            "details": "Data Was Provided by Jayashree Revadekar India Meteorological Department",
+            "frequency": "day",
+            "label": "india",
+            "source_id": "1000016"
+        },
+        "1000017": {
+            "data_repository": "isti",
+            "details": "Data Was Provided by Juerg Luterbacher",
+            "frequency": "day",
+            "label": "giessen",
+            "source_id": "1000017"
+        },
+        "1000018": {
+            "data_repository": "isti",
+            "details": "Data Was Provided by Ludvig Isaksson from the Swedish Stations to The GSN Network",
+            "frequency": "day",
+            "label": "gsn_sweden",
+            "source_id": "1000018"
+        },
+        "1000019": {
+            "data_repository": "isti",
+            "details": "Data Was Provided Via Cd-Rom By Dr V.N. Razuvaev and Dr. O.N. Bulygina Oak Ridge National Laboratory, Oak Ridge, Tennessee, Usa",
+            "frequency": "day",
+            "label": "russia",
+            "source_id": "1000019"
+        },
+        "1000020": {
+            "data_repository": "isti",
+            "details": "Data Were Provided by William Angel in March 2011. They Are Data Digitized as Part of The CDMP Program",
+            "frequency": "day",
+            "label": "vietnam",
+            "source_id": "1000020"
+        },
+        "1000021": {
+            "data_repository": "isti",
+            "details": "Instituto Nacional De Meteorologia E HidrologiaI in Ecuador",
+            "frequency": "day",
+            "label": "ecuador",
+            "source_id": "1000021"
+        },
+        "1000022": {
+            "data_repository": "isti",
+            "details": "Midwestern Regional Climate Center (MRCC)",
+            "frequency": "day",
+            "label": "usforts",
+            "source_id": "1000022"
+        },
+        "1000023": {
+            "data_repository": "isti",
+            "details": "National Institute for Space Research (Inpe) In Brazil",
+            "frequency": "day",
+            "label": "brazil",
+            "source_id": "1000023"
+        },
+        "1000024": {
+            "data_repository": "isti",
+            "details": "National Institute of Agriculture, And Was Provided by Matilde Rusticucci From the University of Buenos Aires",
+            "frequency": "day",
+            "label": "argentina",
+            "source_id": "1000024"
+        },
+        "1000025": {
+            "data_repository": "isti",
+            "details": "Data Provided by Howard Diamond On 29 March 2011 and Peter Fisher International Operations Managerscience, Research and Development Division Meteorological Service of New Zealand Limited.",
+            "frequency": "day",
+            "label": "pitcairnislands",
+            "source_id": "1000025"
+        },
+        "1000026": {
+            "data_repository": "isti",
+            "details": "These Data Originated from Mr. Frank Le Blancq States of Jersey Meteorological Department",
+            "frequency": "day",
+            "label": "channel_islands",
+            "source_id": "1000026"
+        },
+        "1000027": {
+            "data_repository": "isti",
+            "details": "The Data Is Qc'd, And Provided by Madeline Renom Institute of Physics Of The Faculty Of Sciences (University Of The Republic) Igu\u00e1 4225, Montevideo, URUGUAY 11400",
+            "frequency": "day",
+            "label": "uruguay",
+            "source_id": "1000027"
+        },
+        "1000028": {
+            "data_repository": "isti",
+            "details": "The European Climate Assessment and Dataset",
+            "frequency": "day",
+            "label": "ecad_non_blend",
+            "source_id": "1000028"
+        },
+        "1000029": {
+            "data_repository": "isti",
+            "details": "The Southeast Asian Climate Assessment and Dataset",
+            "frequency": "day",
+            "label": "sacad_non_blend",
+            "source_id": "1000029"
+        },
+        "1000030": {
+            "data_repository": "isti",
+            "details": "These Data Originated from The Japan Meteorological Agency",
+            "frequency": "day",
+            "label": "japan",
+            "source_id": "1000030"
+        },
+        "1000031": {
+            "data_repository": "isti",
+            "details": "These Data Were Provided by William Angel in March 2011. They Are Data Digitized as part of The CDMP Program",
+            "frequency": "day",
+            "label": "mexico",
+            "source_id": "1000031"
+        },
+        "1000032": {
+            "data_repository": "isti",
+            "details": "UK Met Office",
+            "frequency": "day",
+            "label": "hadisd",
+            "source_id": "1000032"
+        },
+        "1000033": {
+            "data_repository": "isti",
+            "details": "Scar Reader Project Antarctic Meteorological Research Center (AMRC) Iniversity Wisconsin Madison USA",
+            "frequency": "mon",
+            "label": "antarctic_scar_reader",
+            "source_id": "1000033"
+        },
+        "1000034": {
+            "data_repository": "isti",
+            "details": "Antarctic Meteorological Research Center (AMRC) University Wisconsin Madison USA",
+            "frequency": "mon",
+            "label": "russsource_antarctica",
+            "source_id": "1000034"
+        },
+        "1000035": {
+            "data_repository": "isti",
+            "details": "Central Institute for Meteorology and Geodynamics Zamg",
+            "frequency": "mon",
+            "label": "histalp",
+            "source_id": "1000035"
+        },
+        "1000036": {
+            "data_repository": "isti",
+            "details": "Environment Canada National Climate Data and Information Archive",
+            "frequency": "mon",
+            "label": "canada",
+            "source_id": "1000036"
+        },
+        "1000037": {
+            "data_repository": "isti",
+            "details": "Environment Canada National Climate Data and Information Archive",
+            "frequency": "mon",
+            "label": "canada_raw",
+            "source_id": "1000037"
+        },
+        "1000038": {
+            "data_repository": "isti",
+            "details": "German Meteorological Service Deutscher Wetterdienst",
+            "frequency": "mon",
+            "label": "germany",
+            "source_id": "1000038"
+        },
+        "1000039": {
+            "data_repository": "isti",
+            "details": "Russource_Argentina_Multiple_Sources",
+            "frequency": "mon",
+            "label": "russsource_argentina",
+            "source_id": "1000039"
+        },
+        "1000040": {
+            "data_repository": "isti",
+            "details": "International Arctic Research Center at the University of Alaska",
+            "frequency": "mon",
+            "label": "arctic",
+            "source_id": "1000040"
+        },
+        "1000041": {
+            "data_repository": "isti",
+            "details": "International Arctic Research Center at the University of Alaska",
+            "frequency": "mon",
+            "label": "ak_hi_climat",
+            "source_id": "1000041"
+        },
+        "1000042": {
+            "data_repository": "isti",
+            "details": "John Christy Of UAH British E Africa Met Dept",
+            "frequency": "mon",
+            "label": "east_africa",
+            "source_id": "1000042"
+        },
+        "1000043": {
+            "data_repository": "isti",
+            "details": "Monthly Climatic Data of The World (MCDW)",
+            "frequency": "mon",
+            "label": "mcdw",
+            "source_id": "1000043"
+        },
+        "1000044": {
+            "data_repository": "isti",
+            "details": "Monthly Climatic Data of The World (MCDW)",
+            "frequency": "mon",
+            "label": "mcdw_unpublished",
+            "source_id": "1000044"
+        },
+        "1000045": {
+            "data_repository": "isti",
+            "details": "These Data Originated from John Christy Of Uah",
+            "frequency": "mon",
+            "label": "uganda",
+            "source_id": "1000045"
+        },
+        "1000046": {
+            "data_repository": "isti",
+            "details": "National Centers For Environmental Information (NCEI)",
+            "frequency": "mon",
+            "label": "climat_bufr",
+            "source_id": "1000046"
+        },
+        "1000047": {
+            "data_repository": "isti",
+            "details": "National Snow and Ice Data Center (NSIDC)",
+            "frequency": "mon",
+            "label": "central_asia",
+            "source_id": "1000047"
+        },
+        "1000048": {
+            "data_repository": "isti",
+            "details": "Norweigan Meteorological Institutes EKLIMA Portal",
+            "frequency": "mon",
+            "label": "eklima",
+            "source_id": "1000048"
+        },
+        "1000049": {
+            "data_repository": "isti",
+            "details": "NWS Climat Streams That Are Sent to NCDC",
+            "frequency": "mon",
+            "label": "climat_ncdc",
+            "source_id": "1000049"
+        },
+        "1000050": {
+            "data_repository": "isti",
+            "details": "Preliminary Climat Data",
+            "frequency": "mon",
+            "label": "climat_prelim",
+            "source_id": "1000050"
+        },
+        "1000051": {
+            "data_repository": "ecad",
+            "details": "Royal Netherlands Meteorological Institute (KNMI) Via ECAD",
+            "frequency": "mon",
+            "label": "knmi",
+            "source_id": "1000051"
+        },
+        "1000052": {
+            "data_repository": "isti",
+            "details": "Russ Vose Analysis of Mr Griffiths max min data from various countries around the World",
+            "frequency": "mon",
+            "label": "colonialera",
+            "source_id": "1000052"
+        },
+        "1000053": {
+            "data_repository": "isti",
+            "details": "Russource_Australia_De_Multiple_Sources",
+            "frequency": "mon",
+            "label": "russsource_australia _de",
+            "source_id": "1000053"
+        },
+        "1000054": {
+            "data_repository": "isti",
+            "details": "Russource_Australia_Multiple_Sources",
+            "frequency": "mon",
+            "label": "russsource_australia",
+            "source_id": "1000054"
+        },
+        "1000055": {
+            "data_repository": "isti",
+            "details": "Russource_Australia_Wwr_Multiple_Sources",
+            "frequency": "mon",
+            "label": "russsource_australia_wwr",
+            "source_id": "1000055"
+        },
+        "1000056": {
+            "data_repository": "isti",
+            "details": "Russource_Brazil_Multiple_Sources",
+            "frequency": "mon",
+            "label": "russsource_brazil",
+            "source_id": "1000056"
+        },
+        "1000057": {
+            "data_repository": "isti",
+            "details": "Russource_Canada_Multiple_Sources",
+            "frequency": "mon",
+            "label": "russsource_canada",
+            "source_id": "1000057"
+        },
+        "1000058": {
+            "data_repository": "isti",
+            "details": "Russource_Chile_Multiple_Sources",
+            "frequency": "mon",
+            "label": "russsource_chile",
+            "source_id": "1000058"
+        },
+        "1000059": {
+            "data_repository": "isti",
+            "details": "Russource_Climat_Multiple_Sources",
+            "frequency": "mon",
+            "label": "russsource_climat",
+            "source_id": "1000059"
+        },
+        "1000060": {
+            "data_repository": "isti",
+            "details": "Russource_Conus_Climat_Multiple_Sources",
+            "frequency": "mon",
+            "label": "russsource_conus_climat",
+            "source_id": "1000060"
+        },
+        "1000061": {
+            "data_repository": "isti",
+            "details": "Russource_Cuba_Multiple_Sources",
+            "frequency": "mon",
+            "label": "russsource_climat",
+            "source_id": "1000061"
+        },
+        "1000062": {
+            "data_repository": "isti",
+            "details": "Russource_Fao_Multiple_Sources",
+            "frequency": "mon",
+            "label": "russsource_fao",
+            "source_id": "1000062"
+        },
+        "1000063": {
+            "data_repository": "isti",
+            "details": "Russource_Fwa_Multiple_Sources",
+            "frequency": "mon",
+            "label": "russsource_fwa",
+            "source_id": "1000063"
+        },
+        "1000064": {
+            "data_repository": "isti",
+            "details": "Russource_Greece_Multiple_Sources",
+            "frequency": "mon",
+            "label": "russsource_greece",
+            "source_id": "1000064"
+        },
+        "1000065": {
+            "data_repository": "isti",
+            "details": "Russource_Griffiths_Multiple_Sources",
+            "frequency": "mon",
+            "label": "russsource_griffiths",
+            "source_id": "1000065"
+        },
+        "1000066": {
+            "data_repository": "isti",
+            "details": "Russource_Griffiths_Sa_Multiple_Sources",
+            "frequency": "mon",
+            "label": "russsource_griffiths_sa",
+            "source_id": "1000066"
+        },
+        "1000067": {
+            "data_repository": "isti",
+            "details": "Russource_Indonesia_Multiple_Sources",
+            "frequency": "mon",
+            "label": "russsource_indonesia",
+            "source_id": "1000067"
+        },
+        "1000068": {
+            "data_repository": "isti",
+            "details": "Russource_Iran_Multiple_Sources",
+            "frequency": "mon",
+            "label": "russsource_iran",
+            "source_id": "1000068"
+        },
+        "1000069": {
+            "data_repository": "isti",
+            "details": "Russource_Ish_Multiple_Sources",
+            "frequency": "mon",
+            "label": "russsource_ish",
+            "source_id": "1000069"
+        },
+        "1000070": {
+            "data_repository": "isti",
+            "details": "Russource_Mexico_Multiple_Sources",
+            "frequency": "mon",
+            "label": "russsource_mexico",
+            "source_id": "1000070"
+        },
+        "1000071": {
+            "data_repository": "isti",
+            "details": "Russource_New Zealand_Multiple_Sources",
+            "frequency": "mon",
+            "label": "russsource_new_zealand",
+            "source_id": "1000071"
+        },
+        "1000072": {
+            "data_repository": "isti",
+            "details": "Russource_South Africa_Multiple_Sources",
+            "frequency": "mon",
+            "label": "russsource_south_africa",
+            "source_id": "1000072"
+        },
+        "1000073": {
+            "data_repository": "isti",
+            "details": "Russource_Tdxx_Merge_Multiple_Sources",
+            "frequency": "mon",
+            "label": "russsource_tdxx_merge",
+            "source_id": "1000073"
+        },
+        "1000074": {
+            "data_repository": "isti",
+            "details": "UK Met Office",
+            "frequency": "mon",
+            "label": "climat_uk",
+            "source_id": "1000074"
+        },
+        "1000075": {
+            "data_repository": "isti",
+            "details": "UK Met Office",
+            "frequency": "mon",
+            "label": "crutem3",
+            "source_id": "1000075"
+        },
+        "1000076": {
+            "data_repository": "isti",
+            "details": "UK Met Office",
+            "frequency": "mon",
+            "label": "crutem4",
+            "source_id": "1000076"
+        },
+        "1000077": {
+            "data_repository": "isti",
+            "details": "UK Met Office",
+            "frequency": "mon",
+            "label": "ukmet_hist",
+            "source_id": "1000077"
+        },
+        "1000078": {
+            "data_repository": "isti",
+            "details": "World Monthly Surface Station Climatology Dataset",
+            "frequency": "mon",
+            "label": "wmssc",
+            "source_id": "1000078"
+        },
+        "1000079": {
+            "data_repository": "isti",
+            "details": "World_Weather_Records_NOAA_multiple_sources",
+            "frequency": "mon",
+            "label": "wwr",
+            "source_id": "1000079"
+        },
+        "1000080": {
+            "data_repository": "isti",
+            "details": "Inventory_Russsource_GHCN",
+            "frequency": "mon",
+            "label": "russsource_ghcn",
+            "source_id": "1000080"
+        },
+        "1000081": {
+            "data_repository": "isti",
+            "details": "Inventory_Russsource_GHCND_Nonconus",
+            "frequency": "mon",
+            "label": "russsource_ghcnd_nonconus",
+            "source_id": "1000081"
+        },
+        "1000082": {
+            "data_repository": "dwd",
+            "details": "Deutscher Wetterdienst",
+            "frequency": "day",
+            "label": "DWD_Daily",
+            "source_id": "1000082"
+        },
+        "1000083": {
+            "data_repository": "dwd",
+            "details": "Deutscher Wetterdienst",
+            "frequency": "6hr",
+            "label": "DWD_Sub_daily",
+            "source_id": "1000083"
+        },
+        "1000084": {
+            "data_repository": "dwd",
+            "details": "Deutscher Wetterdienst",
+            "frequency": "mon",
+            "label": "DWD_Monthly",
+            "source_id": "1000084"
+        },
+        "1000085": {
+            "data_repository": "ghcnd",
+            "details": "Environment Canada National Climate Data and Information Archive",
+            "frequency": "day",
+            "label": "canada_ghcnd",
+            "source_id": "1000085"
+        },
+        "1000086": {
+            "data_repository": "isti",
+            "details": "Data Provided by Howard Diamond On 29 March 2011 and Peter Fisher International Operations Manager science, Research and Development Division Meteorological Service of New Zealand Limited. Updated 29th May 3 Extra Stations Via Email from Howard Diamond to Simon Noone of GLAMOD, NUIM, Ireland.",
+            "frequency": "mon",
+            "label": "antartic_southpole",
+            "source_id": "1000086"
+        },
+        "1000087": {
+            "data_repository": "Howard Diamond",
+            "details": "Antarctic Meteorological Research Center (AMRC) University Wisconsin Madison USA",
+            "frequency": "mon",
+            "label": "Pitcairns islands",
+            "source_id": "1000087"
+        }
     }
-  }
 }
