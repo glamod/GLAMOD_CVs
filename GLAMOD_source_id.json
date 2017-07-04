@@ -577,7 +577,7 @@
         "1000083": {
             "data_repository": "dwd",
             "details": "Deutscher Wetterdienst",
-            "frequency": "6hr",
+            "frequency": "1hr",
             "label": "DWD_Sub_daily",
             "source_id": "1000083"
         },
@@ -597,14 +597,14 @@
         },
         "1000086": {
             "data_repository": "isti",
-            "details": "Data Provided by Howard Diamond On 29 March 2011 and Peter Fisher International Operations Manager science, Research and Development Division Meteorological Service of New Zealand Limited. Updated 29th May 3 Extra Stations Via Email from Howard Diamond to Simon Noone of GLAMOD, NUIM, Ireland.",
+            "details": "Antarctic Meteorological Research Center (AMRC) University Wisconsin Madison USA",
             "frequency": "mon",
             "label": "antartic_southpole",
             "source_id": "1000086"
         },
         "1000087": {
             "data_repository": "Howard Diamond",
-            "details": "Antarctic Meteorological Research Center (AMRC) University Wisconsin Madison USA",
+            "details": "Data Provided by Howard Diamond On 29 March 2011 and Peter Fisher International Operations Manager science, Research and Development Division Meteorological Service of New Zealand Limited. Updated 29th May 3 Extra Stations Via Email from Howard Diamond to Simon Noone of GLAMOD, NUIM, Ireland.",
             "frequency": "mon",
             "label": "Pitcairns islands",
             "source_id": "1000087"
